@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mingo Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="homepg-mainbody.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <a class="head-item" href="homepg.html">Home</a>
+      <div class="head-mid">
+        <a class="head-item" href="learn-more-pg.html" target="_self">Learn More</a>
+        <a class="head-item" href="reach-out-pg.html" target="_self">Reach Out</a>
+        <p>+<!--Insert Symbol--></p>
+        <a class="head-item" href="mingo.html" target="_self">Mingo</a>
+        <a class="head-item" href="abt-us-pg.html" target="_self">About Us</a>
+      </div>
+      <div class="logo">
+        <img src="Images/Logo.png" href="homepg.html">
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="homepg-main-content">
+        <p id="homepg-main-elm1">Feeling down?</p>
+        <p id="homepg-main-elm2">Try Something New: </p>
+        <button class="mingo-btn" onclick="window.location.href='mingo.html'">Start a New Mingo</button>
+        <p class="subscript">Mental health in our communities matter: You matter.</p>
+        <div class="blurb-container">
+          <p id="blurb">At MINGO, we believe that mental health is vital to our lives. We designed our mingo board for those who wish to self-improve by doing simple tasks everyday - a mere five tasks or more. We hope to better their lives and elevate their mental well-being.</p>
+        </div>
+      </div>
+      <div class="charities-container">
+        <p id="charities-head">CHARITIES</p>
+        <p id="charities-blurb">Wanna help more people? Here are some charities you can donate to: </p>
+          <div class="charities-flexbox">
+            <div class="charity-row">
+              <button class="charity" onclick="window.location.href='https://supporting.afsp.org/'" title="AFSP's mission is to save lives and bring hope to those affected by suicide.">AFSP: American Foundation for Suicide Prevention</button>
+              <button class="green-button" onclick="window.location.href='https://www.nami.org/About-NAMI/Donate-to-NAMI#:~:text=When%20you%20make%20a%20financial,in%20communities%20across%20the%20country'" title="Provides advocacy, education, support, and public awareness.">NAMI: National Alliance on Mental Illness</button>
+            </div>
+            <div class="charity-row">
+              <button class="charity" onclick="window.location.href='https://jedfoundation.org/'" title="Believe in a comprehensive, public health approach to promoting mental health and preventing suicide.">JED: The JED Foundation</button>
+              <button id="span-two-cols" class="charity" onclick="window.location.href='https://secure.givelively.org/donate/american-psychiatric-association-foundation'" title="Raise awareness and overcome barriers.">APAF: American Psychiatric Association Foundation</button>
+            </div>
+            <div class="charity-row">
+              <button class="green-button" onclick="window.location.href='https://mhanational.org/'" title="Assist and encourage communities, families and individuals to experience hope, wellness and recovery from mental health and substance use disorder issues.">MHA: Mental Health America</button>
+            </div>
+          </div>
+          <p id="charities-foot"></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mingo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="mingo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <a class="head-item" href="homepg.html">Home</a>
+      <div class="head-mid">
+        <a class="head-item" href="learn-more-pg.html" target="_self">Learn More</a>
+        <a class="head-item" href="reach-out-pg.html" target="_self">Reach Out</a>
+        <a class="head-item" href="mingo.html" target="_self">Mingo</a>
+        <a class="head-item" href="abt-us-pg.html" target="_self">About Us</a>
+      </div>
+      <div class="logo">
+        <img src="Images/Logo.png" href="homepg.html">
+      </div>
+    </div>
+    <div class="main-container">
+      <p class="title">Mingo</p>
+      <p class="blurb">Complete these activities to achieve your Mingo of the day!</p>
+      <button class="new-board">Generate New Board</button>
+      <div class="mingo-board">
+        <div id="cards"></div>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="win-screen">
+        <h2 class="win-screen-head">Congrats You Won!</h2>
+        <button class="win-screen-btn">Start a New Board</button>
+      </div>
+    </div>
+  </body>
+  <script src="mingo-script.js"></script>
+</html>

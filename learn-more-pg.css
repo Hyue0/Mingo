@@ -1,0 +1,147 @@
+.title-section{
+  margin-top: 9vh;
+}
+
+.title-section{
+  background-image: url(https://i.pinimg.com/564x/2b/a8/28/2ba8289a1438d21edd8b330ee358b7d2.jpg);
+  background-position:top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1vh;
+  color: rgb(52, 77, 61);
+  height: 60vh;
+}
+
+.question {
+  margin-top: 2vh;
+  font-size: 1.8vw;
+  color: rgb(12, 31, 19);
+  font-weight: bold;
+}
+
+.main-words1 {
+  font-size: 7vw;
+}
+
+.main-words2 {
+  font-size: 4vw;
+}
+.stats-section{
+  background-color: rgb(94, 137, 94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-title {
+  margin-right: 68vw;
+  font-size: 3vw;
+  color: white;
+}
+.stat-box{
+  background-color: transparent;
+  flex: 1;
+  font-size: 1.5vw;
+  margin-left: 10vw;
+  color: rgb(214, 233, 214)
+}
+
+.stats-image{
+  width: 40vw;
+  flex:1;
+  margin-right: 5vw;
+  height: 40vh;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.link-learn-more {
+  margin-right: 45vw;
+  font-size: 1.5vw;
+}
+.info-section{
+  background-image: url(https://i.pinimg.com/564x/92/ef/7c/92ef7c643adb5553de0343cc164a963e.jpg);
+  background-position: top;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  
+  
+}
+
+.info{
+  height: 30vh;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  font-size: 1.5vw;
+  flex:1;
+}
+
+.info h2{
+  margin-top:1vh;
+}
+
+.info-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+
+}
+
+.mental-image {
+  height: 50vh;
+  width: 20vw;
+}
+
+
+.importance{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  flex:1;
+  height: 30vh;
+  margin-right: 5vw;
+  margin-top: 21vh;
+  font-size: 1.5vw;
+
+}
+
+.reach-out-btn {
+  background-color: rgb(52, 77, 61);
+  border: 0.2vw solid rgb(157, 197, 157);
+  border-radius: 4vw;
+  color: rgb(157, 197, 157);
+  font-size: 2vw;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right:2vw;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  transition: color 0.15s,
+              background-color 0.15s,
+              border 0.15s,
+              opacity 0.15s;
+}
+
+.reach-out-btn:hover {
+  background-color: rgb(157, 197, 157);
+  border: 0.2vw solid rgb(52, 77, 61);
+  color: rgb(52, 77, 61);
+}
+
+.reach-out-btn:active{
+  opacity: 0.7;
+}

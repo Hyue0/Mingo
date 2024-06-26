@@ -1,0 +1,45 @@
+.main-container{
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 9vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5vw;
+  position: absolute;
+}
+
+.left-column{
+  flex:1;
+}
+
+.brain-image {
+  height: 60vh;
+  width: 40vw;
+  margin-left: 5vw;
+  border-radius: 1vw;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.right-column{
+  flex:1;
+}
+
+.mingo {
+  margin-top: 0.5vh;
+  margin-right: 10vw;
+  font-weight: bold;
+  color: rgb(90, 120, 104);
+  font-size: 3vw;
+  padding-bottom: 2.5vw
+  
+}
+
+.about-us {
+  font-size: 1.5vw;
+  color: rgb(36, 53, 44);
+  margin-right: 2vw;
+  padding: 2vh;
+  border-top: 0.5vh solid rgb(21, 36, 28);
+  border-bottom: 0.5vh solid rgb(21, 36, 28);
+}
